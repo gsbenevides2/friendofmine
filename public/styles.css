@@ -1,0 +1,47 @@
+body{
+ opacity:0;
+ transition:5s;
+}
+.home{
+ background:url("../images/back_home1-min.jpg") center/cover;
+}
+#paty{
+ background:url("../images/back_home2-min.jpg") center/cover;
+}
+video{
+ width:100%;
+}
+body.show{
+ opacity:1;
+}
+#fullpage .section:nth-child(1) h1,
+.person #fullpage .section:nth-child(3) h3,
+.person #fullpage .section:nth-child(2) h3{
+ margin-top:-50%;
+}
+.section{
+ text-align: center;
+}
+.mdl-list{
+ width:100%;
+}
+.mdl-list__item{
+ transition:0.5s;
+}
+.mdl-list__item a{
+ color:white;
+ font-size:20px;
+}
+.mdl-list__item:hover{
+ background-color:rgba(255,255,255);
+}
+.mdl-list__item:nth-child(1) .mdl-list__item-avatar{
+ transform:rotate(100deg);
+ background:url("../images/angelica.jpg") center/cover;
+}
+.mdl-list__item:nth-child(2) .mdl-list__item-avatar{
+ background:url("../images/julia.jpg") center/cover;
+}
+.mdl-list__item:nth-child(3) .mdl-list__item-avatar{
+ background:url("../images/paty.jpg") center/cover;
+}
