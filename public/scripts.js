@@ -1,9 +1,12 @@
 document.addEventListener("DOMContentLoaded", function(event) {
- full = new fullpage("#fullpage")
+ try{
+	full = new fullpage("#fullpage")
+ }catch(e){}
  const video = document.querySelector("video")
- console.log(video)
  window.onload = function(){
 	document.body.classList.add("show")
  }
- video.addEventListener("ended",full.moveSectionDown,false)
+ if(video){
+	video.addEventListener("ended",full.moveSectionDown,false)
+ }
 })

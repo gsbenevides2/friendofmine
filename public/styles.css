@@ -3,10 +3,13 @@ body{
  transition:5s;
 }
 .home{
- background:url("../images/back_home1-min.jpg") center/cover;
+ background:url("../images/back_home.webp") center/cover;
+}
+#ju{
+ background:url("../images/back_ju.webp") center/cover;
 }
 #paty{
- background:url("../images/back_home2-min.jpg") center/cover;
+ background:url("../images/back_paty.webp") center/cover;
 }
 video{
  width:100%;
@@ -36,7 +39,7 @@ body.show{
  background-color:rgba(255,255,255);
 }
 .mdl-list__item:nth-child(1) .mdl-list__item-avatar{
- transform:rotate(100deg);
+ /*transform:rotate(100deg);*/
  background:url("../images/angelica.jpg") center/cover;
 }
 .mdl-list__item:nth-child(2) .mdl-list__item-avatar{
