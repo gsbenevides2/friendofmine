@@ -5,6 +5,12 @@ body{
 .home{
  background:url("../images/back_home.webp") center/cover;
 }
+#naty{
+ background:url("../images/back_naty.webp") center/cover;
+}
+#angel{
+ background:url("../images/back_angel.webp") center/cover;
+}
 #ju{
  background:url("../images/back_ju.webp") center/cover;
 }
@@ -46,5 +52,8 @@ body.show{
  background:url("../images/julia.jpg") center/cover;
 }
 .mdl-list__item:nth-child(3) .mdl-list__item-avatar{
+ background:url("../images/naty.jpg") center/cover;
+}
+.mdl-list__item:nth-child(4) .mdl-list__item-avatar{
  background:url("../images/paty.jpg") center/cover;
 }
