@@ -1,0 +1,19 @@
+{
+  "name": "friendofmine",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/gsbenevides2/friendofmine.git",
+  "author": "gsbenevides2 <gsbenevides2@gmail.com>",
+  "license": "MIT",
+  "scripts":{
+	 "build":"node scripts/build.js"
+	},
+	"dependencies": {
+    "@node-minify/clean-css": "^5.2.0",
+    "@node-minify/core": "^5.2.1",
+    "@node-minify/html-minifier": "^5.2.0",
+    "@node-minify/uglify-es": "^5.2.0",
+    "chalk": "^3.0.0",
+    "ncp": "^2.0.0"
+  }
+}
