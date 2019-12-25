@@ -65,4 +65,4 @@ node_modules/
 .env
 
 # public
-public/
+# public/
