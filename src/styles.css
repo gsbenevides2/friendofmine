@@ -5,6 +5,9 @@ body{
 .home{
  background:url("../images/back_home.webp") center/cover;
 }
+#ana{
+ background:url("../images/back_ana.webp") center/cover;
+}
 #naty{
  background:url("../images/back_naty.webp") center/cover;
 }
@@ -45,15 +48,17 @@ body.show{
  background-color:rgba(255,255,255);
 }
 .mdl-list__item:nth-child(1) .mdl-list__item-avatar{
- /*transform:rotate(100deg);*/
- background:url("../images/angelica.webp") center/cover;
+ background:url("../images/ana.webp") center/cover;
 }
 .mdl-list__item:nth-child(2) .mdl-list__item-avatar{
- background:url("../images/julia.webp") center/cover;
+ background:url("../images/angelica.webp") center/cover;
 }
 .mdl-list__item:nth-child(3) .mdl-list__item-avatar{
- background:url("../images/naty.webp") center/cover;
+ background:url("../images/julia.webp") center/cover;
 }
 .mdl-list__item:nth-child(4) .mdl-list__item-avatar{
+ background:url("../images/naty.webp") center/cover;
+}
+.mdl-list__item:nth-child(5) .mdl-list__item-avatar{
  background:url("../images/paty.webp") center/cover;
 }

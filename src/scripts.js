@@ -10,4 +10,5 @@ document.addEventListener("DOMContentLoaded", function(event) {
  if(video){
 	video.addEventListener("ended",full.moveSectionDown,false)
  }
+ firebase.performance()
 })

@@ -1,6 +1,7 @@
-var CACHE_NAME = 'gsb-122';
+var CACHE_NAME = 'gsb-132';
 var CACHE_FILES = [
  "/",
+ "/Ana",
  "/Pati",
  "/Angel",
  "/Ju",
